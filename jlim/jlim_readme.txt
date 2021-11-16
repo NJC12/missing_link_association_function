@@ -8,13 +8,13 @@ This code depends on several tools.
 - Perl: https://www.perl.org/
 
 This code depends on the following datasets.
-- GTEx: Summary statistics are freely available (https://gtexportal.org/home/datasets). Genotypes can only be used with permission of the consortium (https://gtexportal.org/home/documentationPage#staticTextPublicationPolicy), or once datasets are posted on dbGAP, with permission of the NIH (https://gtexportal.org/home/documentationPage).
+- GTEx: Summary statistics are freely available (https://gtexportal.org/home/datasets). Genotypes can only be used with permission of the consortium (https://gtexportal.org/home/protectedDataAccess), or once datasets are posted on dbGAP, with permission of the NIH (https://gtexportal.org/home/documentationPage).
 - GWAS summary statistics from
 - Zhang et al. 2020 (http://bcac.ccge.medschl.cam.ac.uk/bcacdata/oncoarray/oncoarray-and-combined-summary-result/gwas-summary-associations-breast-cancer-risk-2020/)
 - Liu et al. 2015 and Goyette et al. 2015 (https://www.ibdgenetics.org/downloads.html or ftp://ftp.sanger.ac.uk/pub/consortia/ibdgenetics/iibdgc-trans-ancestry-filtered-summary-stats.tgz)
 - Mahajan et al. 2018 (http://diagram-consortium.org/downloads.html)
   - Specifically, statistics "Adjusted for BMI" were used.
-- Our GWAS for height, LDL, and HDL (
+- Our GWAS for height, LDL, and HDL (https://doi.org/10.5061/dryad.612jm644q)
 
 Variables
 - Several global variables must be set
