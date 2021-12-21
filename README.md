@@ -25,12 +25,11 @@ The missing link between genetic association and regulatory function. medRxiv (2
 		Chromatin-Analysis: contains the scripts for computing ABD scores for the gene-feature pairs per tissue type.
 
 ### Instructions	
-	i)
-	ii) Fine-mapping:
+	i) Fine-mapping:
 		```
 		Rscript susie-finemapping.R <z_file> <ld_matrix_npz_file> <N> <out_file>
 		```
-	iii) Computing ABD scores:
+	ii) Computing ABD scores:
 		a. Finding candidate peaks per chromatin mark per tissue type:
 		   ```
 		   python3 find_candidate_peaks.py input.narrowPeak causativeGenes.bed step1.candidatePeak
@@ -47,6 +46,3 @@ The missing link between genetic association and regulatory function. medRxiv (2
 		   ```
 		   python3 abd-compute.py step3.commonPeak reFlat.gencode.v19 output
 		   ```
-
-
-### Contact: 
