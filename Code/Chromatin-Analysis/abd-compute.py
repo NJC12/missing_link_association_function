@@ -94,14 +94,14 @@ def main():
 		en = int(y[1])
 		for gene, tss, ten in gm[chr]:
 			dist = abs(tss - ((st+en)/2.0))+1
-			if dist <= 100000:
+			if dist <= 1000000:
 				if k not in m2.keys():
 					m2[k] = m[k] + [[],[],[],[],[],[]]
 				m2[k][7].append(gene)
 				m2[k][8].append(tss)
 				m2[k][9].append(isOverlapped(st,en,tss,ten))
 				m2[k][10].append(dist)
-				m2[k][11].append(m[k][6]*100000./dist)
+				m2[k][11].append(m[k][6]*1000000./dist)
 	
 #	for k in m2.keys():
 #		genes = m2[k][7]
